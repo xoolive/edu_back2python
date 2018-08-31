@@ -1,4 +1,4 @@
-## Une remise en jambes en Python
+## Back to Python
 
 You will need a working Python environment. Anaconda is recommended.
 
