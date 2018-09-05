@@ -22,3 +22,9 @@ All solutions are provided so you could go through all this in 15 minutes.
 
 But since we have enough time, you are encouraged to really try the exercises before loading the solutions. We are here to help!
 
+### Late additions
+
+For those who cannot install git, you may be able to install it through conda:
+```sh
+conda install git
+```
