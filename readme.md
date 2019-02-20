@@ -4,8 +4,8 @@ You will need a working Python environment. Anaconda is recommended.
 
 To download the materials:
 ```sh
-git clone https://github.com/xoolive/edu_back2python
-cd edu_back2python
+git clone https://github.com/letstrythat/back2python
+cd back2python
 ```
 
 Unpack the compressed data file. If you want to stick to the command line, in the `data` directory:
