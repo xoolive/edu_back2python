@@ -1,0 +1,5 @@
+theta = np.linspace(0.0, 2*np.pi, 50)
+r = np.sin(5*theta)
+x, y = np.cos(r), np.sin(r)
+fig, ax = plt.subplots(figsize=(10,10))
+plt.plot(x, y)

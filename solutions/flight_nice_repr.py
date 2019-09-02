@@ -9,7 +9,7 @@ class Flight:
         )
 
     def max(self, feature):
-        return self.data[feature].min()
+        return self.data[feature].max()
 
     def min(self, feature):
         return self.data[feature].min()
