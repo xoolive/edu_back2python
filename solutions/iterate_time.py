@@ -5,5 +5,5 @@ def iterate_time(data, threshold):
     start = 0
     for stop in idx:
         yield data.iloc[start:stop]
-        start = stop + 1
+        start = stop
     yield data.iloc[start:]
