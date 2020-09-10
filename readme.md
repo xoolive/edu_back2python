@@ -1,30 +1,49 @@
-## Back to Python
+# Séminaire de reprise en main de Python
 
-You will need a working Python environment. Anaconda is recommended.
+## Mise en place de l'environnement
 
-To download the materials:
+Il est demandé d'installer un environnement Anaconda depuis le [lien suivant](https://www.anaconda.com/products/individual). Il est fortement probable que la version la plus adaptée à votre machine soit la version 64 bits.
+
+Depuis une console Anaconda (Windows) ou un terminal (MacOS, Linux), si l'outil
+`git` n'est pas accessible, vous pouvez l'installer avec l'outil conda:
+
+```sh
+conda install git
+```
+
+Vous pouvez alors télécharger les notebooks qui seront mis à jour avant les
+prochaines séances.
+
 ```sh
 git clone https://github.com/letstrythat/back2python
 cd back2python
 ```
 
-Unpack the compressed data file. If you want to stick to the command line, in the `data` directory:
+Avant chaque séance, il conviendra de télécharger les nouveaux notebooks:
+
 ```sh
-7zr x data/02-prix2016.csv.7z -odata
+git pull
+```
+ 
+## Déroulement des séances
+
+Lancer un environnement Jupyter:
+
+```sh
+jupyter lab
 ```
 
-You can then start the first notebook:
-```sh
-jupyter notebook
-```
+puis déroulez les notebooks dans l'ordre:
 
-All solutions are provided so you could go through all this in 15 minutes.
+0. Types et arithmétique de base
+1. NumPy et Matplotlib
+2. Pandas
 
-But since we have enough time, you are encouraged to really try the exercises before loading the solutions. We are here to help!
+Les notebooks suivants seront mis en ligne avant le prochain séminaire. Il n'est
+pas nécessaire de finir les notebooks avant une séance donnée, il est bien
+entendu que chacun avance à son propre rythme.
 
-### Late additions
 
-For those who cannot install git, you may be able to install it through conda:
-```sh
-conda install git
-```
+Les solutions aux exercices sont fournis, mais nous avons suffisamment de temps
+pour faire de notre mieux avant de charger les solutions. Les encadrants sont là
+pour aider !

@@ -1,6 +1,7 @@
 import math
 
-def prime(n):
+
+def prime(n: int) -> int:
     """Computes all prime numbers below n.
     Computes the sieve of Eratosthenes
     >>> prime(20)
@@ -12,6 +13,5 @@ def prime(n):
         p = p - set(x*i for x in range(2, n//i + 1))
     return p
 
-if __name__ == '__main__':
-    import doctest
-    print (doctest.testmod())
+
+prime(20)
