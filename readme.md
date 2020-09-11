@@ -38,6 +38,8 @@ puis déroulez les notebooks dans l'ordre:
 0. Types et arithmétique de base
 1. NumPy et Matplotlib
 2. Pandas
+3. Les compréhensions de liste
+4. Le protocole d'itération appliqué à Pandas
 
 Les notebooks suivants seront mis en ligne avant le prochain séminaire. Il n'est
 pas nécessaire de finir les notebooks avant une séance donnée, il est bien
@@ -47,3 +49,17 @@ entendu que chacun avance à son propre rythme.
 Les solutions aux exercices sont fournis, mais nous avons suffisamment de temps
 pour faire de notre mieux avant de charger les solutions. Les encadrants sont là
 pour aider !
+
+## Errata
+
+- Dans le notebook `02-pandas.ipynb`, corriger la ligne suivante dans la dernière cellule:
+
+```python
+shapes = {
+    r.attributes['gn_a1_code'][3:]: [r.geometry]
+    if type(r.geometry) == Polygon else r.geometry
+    for r in shpreader.Reader(admin1_file).records()
+    if r.attributes['adm0_a3'] == 'FRA'
+    and r.attributes['gn_a1_code'][:2] == 'FR'
+}
+```
