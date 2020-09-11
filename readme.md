@@ -55,6 +55,8 @@ pour aider !
 - Dans le notebook `02-pandas.ipynb`, corriger la ligne suivante dans la dernière cellule:
 
 ```python
+from shapely.geometry import Polygon
+
 shapes = {
     r.attributes['gn_a1_code'][3:]: [r.geometry]
     if type(r.geometry) == Polygon else r.geometry
