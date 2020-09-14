@@ -65,3 +65,12 @@ shapes = {
     and r.attributes['gn_a1_code'][:2] == 'FR'
 }
 ```
+
+- Dans le notebook `04-pandas-iterate.ipynb`, corriger la solution:
+
+```python
+bigger_chunk.timestamp.astype(int).plot.hist(bins=100)
+# corriger par la ligne suivante
+bigger_chunk.timestamp.astype(np.int64).plot.hist(bins=100)¬
+```
+
