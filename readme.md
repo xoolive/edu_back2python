@@ -22,8 +22,11 @@ cd back2python
 Avant chaque séance, il conviendra de télécharger les nouveaux notebooks:
 
 ```sh
-git pull
+git pull --rebase --autostash
 ```
+
+Les deux options peuvent permettre de gérer les fusions de fichiers entre deux
+versions et éviter les conflits.
  
 ## Déroulement des séances
 
@@ -40,6 +43,9 @@ puis déroulez les notebooks dans l'ordre:
 2. Pandas
 3. Les compréhensions de liste
 4. Le protocole d'itération appliqué à Pandas
+5. Programmation orientée objet et protocoles appliqués à Pandas
+6. Programmation orientée objet et protocoles appliqués à la résolution de
+   puzzles
 
 Les notebooks suivants seront mis en ligne avant le prochain séminaire. Il n'est
 pas nécessaire de finir les notebooks avant une séance donnée, il est bien
