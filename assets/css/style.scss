@@ -23,6 +23,12 @@ header img {
   margin: -50px 0px;
 }
 
+header p {
+  font-style: italic;
+  font-size: 105%;
+  margin: -0.5em 0em 0.5em;
+}
+
 section {
   width: 800px;
 }
@@ -33,4 +39,8 @@ footer {
 
 .wrapper {
   padding-top: 80px;
+}
+
+code pre {
+  font-size: 95%;
 }
