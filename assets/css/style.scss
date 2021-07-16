@@ -1,0 +1,36 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+  position: fixed;
+  top: 0;
+  float: right;
+  width: 860px;
+  border-bottom: 1px solid #dee2e6 !important;
+  background-color: #fff !important;
+  padding: 0.5em 0em;
+}
+header .view {
+  display: none;
+}
+
+header img {
+  max-width: 70px;
+  float: right;
+  display: block;
+  margin: -50px 0px;
+}
+
+section {
+  width: 800px;
+}
+
+footer {
+  display: none;
+}
+
+.wrapper {
+  padding-top: 80px;
+}
