@@ -12,7 +12,7 @@ After the seminar, the participant should be able to:
 - write and run a Python script **outside the Jupyter environment**;
 - **install and manage** a Python or Anaconda environment on their home computer.
 
-Participants are considered consenting adults. Enough material is provided to get proficient quickly and ask questions when needed. Obviously, the more you more assiduous you are the better, but learning practices best suiting you are in your hands. In particular, it is perfectly acceptable:
+Participants are considered consenting adults. Enough material is provided to get proficient quickly and ask questions when needed. Obviously, the more assiduous you are, the better, and learning practices best suiting you are in your hands. In particular, it is perfectly acceptable:
 
 - to peak into the solutions when you are stuck, or to read them thoroughly;
 - to skip sections when it becomes overwhelming, or boring;
@@ -38,7 +38,7 @@ You will need to set up **by yourself** the following pieces:
 
   Please set up the following settings:
 
-  ```
+  ```sh
   conda config --set channel_priority strict
   conda config --add channels conda-forge
   ```
